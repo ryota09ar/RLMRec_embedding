@@ -31,3 +31,4 @@ print("---------------------------------------------------\n")
 emb = get_gpt_emb(profiles[0]['summarization'])
 print(Colors.GREEN + "Encoded Semantic Representation Shape:" + Colors.END)
 print(emb.shape)
+
